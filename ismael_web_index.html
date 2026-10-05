@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ismael Moreno | Soluciones Técnicas Industriales</title>
+<meta name="description" content="Ingeniería y mantenimiento industrial. Escríbenos por WhatsApp o llama.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#14202E;
+  --steel:#3C4A58;
+  --amber:#F2B400;
+  --concrete:#D5D8DB;
+  --paper:#FFFFFF;
+  --wa:#1E8E4E;
+  --display:"Roboto Condensed","Arial Narrow",Impact,sans-serif;
+  --body:"Roboto",Arial,Helvetica,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);background:var(--concrete);color:var(--ink);line-height:1.5;font-size:17px}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--amber);outline-offset:3px}
+
+/* Cabecera de marca */
+.brand{background:var(--ink);color:#fff;padding:36px 20px 28px;border-bottom:8px solid var(--amber)}
+.brand-in{max-width:720px;margin:0 auto}
+.name{font-family:var(--display);font-weight:800;font-size:clamp(54px,15vw,104px);line-height:.9;letter-spacing:.01em;text-transform:uppercase}
+.name small{display:block;font-family:var(--body);font-weight:400;font-size:clamp(10px,2.6vw,15px);letter-spacing:.02em;text-transform:lowercase;opacity:.8;margin-bottom:6px}
+
+/* Gancho con peso de marca */
+.hook{background:var(--amber);color:var(--ink);padding:18px 20px}
+.hook-in{max-width:720px;margin:0 auto}
+.hook h1{font-family:var(--display);font-weight:800;font-size:clamp(28px,7.6vw,46px);line-height:1;text-transform:uppercase}
+.hook p{font-weight:600;margin-top:6px}
+
+main{max-width:720px;margin:0 auto;padding:28px 20px 12px}
+
+/* Contacto */
+.contact h2,.ads h2{font-family:var(--display);font-weight:800;font-size:30px;line-height:1.1;margin-bottom:14px}
+.btns{display:grid;gap:12px}
+.btn{display:flex;align-items:center;justify-content:space-between;gap:12px;text-decoration:none;padding:16px 18px;border-radius:6px;font-weight:600;color:#fff;background:var(--steel);min-height:60px}
+.btn span{font-family:var(--display);font-weight:800;font-size:26px;letter-spacing:.02em}
+.btn.wa{background:var(--wa)}
+.btn.call{background:var(--ink)}
+.btn:hover{filter:brightness(1.12)}
+.btn small{display:block;font-weight:400;font-size:14px;opacity:.9}
+
+/* Anuncios */
+.ads{margin-top:36px}
+.ads p.note{margin-bottom:14px;color:var(--steel)}
+.grid{display:grid;gap:18px}
+.grid a{display:block;background:var(--paper);border-radius:6px;overflow:hidden;border:1px solid #cfd4d8}
+.grid img{display:block;width:100%;height:auto}
+
+footer{max-width:720px;margin:0 auto;padding:28px 20px 40px;color:var(--steel);font-size:15px}
+footer strong{font-family:var(--display);font-size:20px;color:var(--ink)}
+
+@media (min-width:640px){
+  .btns{grid-template-columns:1fr 1fr}
+  .btn.call{grid-column:1 / -1}
+  .grid{grid-template-columns:1fr 1fr}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header class="brand">
+  <div class="brand-in">
+    <svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="#F2B400" stroke-width="1.6" aria-hidden="true" style="margin-bottom:14px"><circle cx="12" cy="12" r="3.2"/><path d="M12 2.5l1.4 2.6a7.5 7.5 0 012.3.9l2.8-.9 1.6 2.8-2 2.1c.2.8.2 1.6 0 2.4l2 2.1-1.6 2.8-2.8-.9a7.5 7.5 0 01-2.3.9L12 21.5l-1.4-2.6a7.5 7.5 0 01-2.3-.9l-2.8.9-1.6-2.8 2-2.1a7.5 7.5 0 010-2.4l-2-2.1 1.6-2.8 2.8.9a7.5 7.5 0 012.3-.9z"/></svg>
+    <div class="name"><small>emprendimiento</small>Ismael Moreno</div>
+  </div>
+</header>
+
+<section class="hook">
+  <div class="hook-in">
+    <h1>Soluciones técnicas industriales</h1>
+    <p>Ingeniería y mantenimiento. Tu activo en manos expertas.</p>
+  </div>
+</section>
+
+<main>
+  <section class="contact" aria-labelledby="t-contacto">
+    <h2 id="t-contacto">Contáctanos</h2>
+    <div class="btns">
+      <a class="btn wa" href="https://wa.me/584262030686?text=Hola%20Ismael%2C%20vi%20tu%20anuncio%20y%20quiero%20informaci%C3%B3n">
+        <div><small>WhatsApp</small><span>0426-2030686</span></div>
+      </a>
+      <a class="btn wa" href="https://wa.me/584121093352?text=Hola%20Ismael%2C%20vi%20tu%20anuncio%20y%20quiero%20informaci%C3%B3n">
+        <div><small>WhatsApp</small><span>0412-1093352</span></div>
+      </a>
+      <a class="btn call" href="tel:+584121093352">
+        <div><small>Llamadas</small><span>0412-1093352</span></div>
+      </a>
+    </div>
+  </section>
+
+  <section class="ads" aria-labelledby="t-anuncios">
+    <h2 id="t-anuncios">Anuncios</h2>
+    <p class="note" id="vacio" hidden>Pronto publicaremos nuestros anuncios aquí.</p>
+    <div class="grid" id="galeria"></div>
+  </section>
+</main>
+
+<footer>
+  <strong>Tu aliado técnico, siempre.</strong><br>
+  Toca un anuncio para verlo completo.
+</footer>
+
+<script>
+/* Revisa anuncios/1 a anuncios/20 (.jpg .png .webp .jpeg). Puedes saltarte números: se muestran en orden los que existan. */
+(function(){
+  var galeria=document.getElementById('galeria');
+  var vacio=document.getElementById('vacio');
+  var exts=['jpg','png','webp','jpeg'];
+  var MAX=20, pendientes=MAX, total=0;
+
+  function fin(){ pendientes--; if(pendientes===0 && total===0){ vacio.hidden=false; } }
+
+  function probar(num,i,slot){
+    if(i>=exts.length){ fin(); return; }
+    var src='anuncios/'+num+'.'+exts[i];
+    var img=new Image();
+    img.onload=function(){
+      slot.href=src; img.alt='Anuncio '+num; img.loading='lazy';
+      slot.appendChild(img); slot.hidden=false; total++; fin();
+    };
+    img.onerror=function(){ probar(num,i+1,slot); };
+    img.src=src;
+  }
+
+  for(var n=1;n<=MAX;n++){
+    var a=document.createElement('a');
+    a.target='_blank'; a.rel='noopener'; a.hidden=true;
+    galeria.appendChild(a);
+    probar(n,0,a);
+  }
+})();
+</script>
+</body>
+</html>
